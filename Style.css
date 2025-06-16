@@ -208,18 +208,21 @@ span
     font-weight: 700;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+
+     
 }
 
 .btn:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 50px var(--main-color);
+  
 }
 
 .btn-group
 {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.5 rem;
+    
 }
 
 .btn-group a:nth-of-type(2)
@@ -440,19 +443,21 @@ span
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 2.5 rem;
+    
 }
 .service-box{
     background-color: var(--main-color);
-    height: 300px;
-    border-radius: 3rem;
-    border: 5px solid transparent;
+    height: 350px;
+   
+    border-radius: 4rem;
+    border: 5px solid black;
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
 .service-box:hover{
     background-color: white;
-    color: black;
+    color: rgb(6, 6, 6);
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
@@ -473,7 +478,7 @@ span
     font-size: 30px;
 }
 .service-info p{
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 600;
     
     max-height: 100px;
